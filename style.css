@@ -1,10 +1,27 @@
+/*-------------- HEADER--------------*/
+/*.logo-pic{
+
+}*/
+
+.contacts{
+  font-size: 18px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.affix{
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 /*Block Advantages*/
 
-.container{
-  width: 100%;
-  min-height: 750px;
+.bg-1{
   background: linear-gradient(to bottom right, #c0c0c0 20%, #b7cadb 54%);
+  height: 750px;
 }
 
 /*CENTER CIRCLE*/
@@ -44,27 +61,27 @@
   transform: scale(1.1);
 }
 
-.circle-icon:hover .text-right,
-.circle-icon:hover .text-left{
-  width: 300px;
+.circle-icon:hover .advantages-left-position,
+.circle-icon:hover .advantages-right-position{
+  width: 355px;
   opacity: 1;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.circle-icon:hover .text-left p,
-.circle-icon:hover .text-right p{
-  font-size: 16px;
+.circle-icon:hover .advantages-left-position p,
+.circle-icon:hover .advantages-right-position p{
+  font-size: 14px;
 }
 
-.text-right p,
-.text-left p {
+.advantages-right-position p,
+.advantages-left-position p {
   margin-top: 3px;
   font-size: 0;
   color: #000;
   transition: font-size 1.5s;
 }
 
-.text-right{
+.advantages-right-position{
   margin-left: 130px;
   opacity: 0;
   width: 0;
@@ -80,8 +97,8 @@
   color: blue;
 }
 
-.text-left{
-  margin-left: -305px;
+.advantages-left-position{
+  margin-left: -360px;
   width: 0;
   text-align: right;
   opacity: 0;
@@ -173,23 +190,186 @@
   background: url("img/icons/1-7.png") no-repeat;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------- DESCRIBE CIRCLES--------------*/
 /*-------------- DESCRIBE CIRCLES--------------*/
+/*-------------- DESCRIBE CIRCLES--------------*/
+
+.box{
+  width: 100%;
+  height: 700px;
+  padding-top: 50px;
+}
+
+.information-right{
+  padding-left: 130px;
+  min-width: 350px;
+  max-width: 500px;
+  opacity: 0;
+  font-size: 16px;
+  transition: 1s;
+  visibility: hidden;
+  margin-top: 40px;
+}
+
+.information-left{
+  margin-left: -320px;
+  text-align: right;
+  width: 310px;
+  opacity: 0;
+  font-size: 16px;
+  transition: 1s;
+  visibility: hidden;
+  margin-top: 35px;
+}
+
+.information-left p,
+.information-right p{
+    margin-bottom: 4px;
+}
+
+.icon-home:hover .information-right,
+.icon-2:hover .information-right,
+.icon-3:hover .information-right,
+.icon-4:hover .information-right,
+.icon-5:hover .information-right,
+.icon-6:hover .information-left,
+.icon-7:hover .information-left,
+.icon-8:hover .information-left,
+.icon-9:hover .information-left,
+.icon-10:hover .information-left{
+  visibility: visible;
+  opacity: 1;
+}
+
+.center-circle{
+  /*background: url("http://egetrener.ru/files/B8/_138.jpg") no-repeat;*/
+  background-position: left;
+  width: 375px;
+  height: 375px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 100px auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.icon-home{
+  background: url("img/icons2/2-1.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: -60px;
+  left: 195px;
+}
+.icon-2{
+  background: url("img/icons2/2-2.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 25px;
+  left: 290px;
+}
+.icon-3{
+  background: url("img/icons2/2-3.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 140px;
+  left: 330px;
+}
+.icon-4{
+  background: url("img/icons2/2-4.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 255px;
+  left: 290px;
+}
+.icon-5{
+  background: url("img/icons2/2-5.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 330px;
+  left: 195px;
+}
+.icon-6{
+  background: url("img/icons2/2-6.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: right;
+  position: absolute;
+  top: 330px;
+  left: 75px;
+}
+.icon-7{
+  background: url("img/icons2/2-7.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 255px;
+  left: -25px;
+}
+.icon-8{
+  background: url("img/icons2/2-8.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 140px;
+  left: -60px;
+}
+.icon-9{
+  background: url("img/icons2/2-9.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: 20px;
+  left: -35px;
+}
+.icon-10{
+  background: url("img/icons2/2-10.png") no-repeat;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-position: left;
+  position: absolute;
+  top: -60px;
+  left: 65px;
+}
+
+
+
+
+
+
+
+
+/*-------------- FOOTER--------------*/
+
+footer{
+  height: 100px;
+  background: darkgreen;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
 /*-------------- DESCRIBE CIRCLES--------------*/
 /*-------------- DESCRIBE CIRCLES--------------*/
