@@ -5,19 +5,25 @@
 
 body{
   color: #888;
+  font-family: 'Futura-Normal', Helvetica, sans-serif;
 }
 
 .container-fluid{
   padding: 0;
 }
 
-.main-pic{
-  background-image: url("img/main-bg.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg-img{
   width: 100%;
-  min-height: 500px;
+  max-height: 650px;
+  background-size: cover;
+}
+
+.carousel-caption{
+  font-size: 30px;
+}
+
+.carousel-caption .title-top-bg{
+  font-size: 60px;
 }
 
 .navbar-header .navbar-brand{
