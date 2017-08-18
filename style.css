@@ -8,15 +8,22 @@ body{
   font-family: 'Futura-Normal', Helvetica, sans-serif;
 }
 
+.human{
+  background: url("img/humans/icon-human.png") no-repeat bottom right;
+  height: 390px;
+}
+
+.call-back{
+  background: url("img/humans/call-back.png") no-repeat bottom right;
+  background-size: 200px;
+}
+
 h1{
   margin-bottom: 35px;
 }
 
 hr{
   width: 55%;
-  margin: 0 auto;
-  background: #888;
-  height: 1px;
 }
 
 .container-fluid{
@@ -26,6 +33,7 @@ hr{
 .wrapper{
   max-width: 100%;
   margin: 0 auto;
+  background: #f6f6f6;
 }
 
 .bg-img{
@@ -91,11 +99,15 @@ hr{
 
 /*Block Advantages*/
 
-.bg-1{
+.bg-lightgray{
   background: #f6f6f6;
-  padding: 100px 0 50px 0;
+  padding: 80px 15px 50px 15px;
 }
 
+.bg-white{
+  background: #fff;
+  padding: 80px 0 50px 0;
+}
 
 
 
@@ -154,6 +166,7 @@ hr{
 .content-box{
   width: 700px;
   height: 250px;
+  background: #fff;
   padding: 15px;
   box-sizing: border-box;
   box-shadow: inset 1px 1px 5px #ccc;
