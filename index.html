@@ -17,6 +17,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js" defer>
+
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
@@ -104,18 +107,18 @@
         </nav>
         <section class="container-fluid bg-lightgray hidden-xs hidden-sm">
             <h1 class="text-center">НАШI <br>ПЕРЕВАГИ <hr></h1>
-            <div class="main-box">
-                <input type="radio" id="icon-description-1" name="submenu" value="" checked>
+            <div class="main-box" onclick="offSlider()">
+                <input type="radio" id="icon-description-1" name="icon-desc" value="" checked>
                 <label for="icon-description-1"><i class="icon1 fa fa-area-chart fa-5x"><p>Географiя</p></i></label>
-                <input type="radio" id="icon-description-2" name="submenu" value="">
+                <input type="radio" id="icon-description-2" name="icon-desc" value="">
                 <label for="icon-description-2"><i class="icon2 fa fa-diamond fa-5x"><p>Можливостi</p></i></label>
-                <input type="radio" id="icon-description-3" name="submenu" value="">
+                <input type="radio" id="icon-description-3" name="icon-desc" value="">
                 <label for="icon-description-3"><i class="icon3 fa fa-trophy fa-5x"><p>Успiхи</p></i></label>
-                <input type="radio" id="icon-description-4" name="submenu" value="">
+                <input type="radio" id="icon-description-4" name="icon-desc" value="">
                 <label for="icon-description-4"><i class="icon4 fa fa-check fa-5x"><p>Потенцiал</p></i></label>
-                <input type="radio" id="icon-description-5" name="submenu" value="">
+                <input type="radio" id="icon-description-5" name="icon-desc" value="">
                 <label for="icon-description-5"><i class="icon5 fa fa-users  fa-5x"><p>Команда</p></i></label>
-                <input type="radio" id="icon-description-6" name="submenu" value="">
+                <input type="radio" id="icon-description-6" name="icon-desc" value="">
                 <label for="icon-description-6"><i class="icon6 fa fa-book fa-5x"><p>Iсторiя</p></i></label>
                 <div class="position-content-box">
                     <div class="content-box">
@@ -403,7 +406,7 @@
                 </div>
             </div>
         </section>
-        <footer class="text-center">
+        <footer class="text-right">
           <div class="row">
             <div class="col-sm-2 col-sm-offset-8">
                 <p class="contacts"><strong>+380(99)999-99-99</strong></p>

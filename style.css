@@ -1,7 +1,4 @@
 /*-------------- HEADER--------------*/
-/*body{
-  font-family: Helvetica;
-}*/
 
 body{
   color: #888;
@@ -82,10 +79,6 @@ hr{
     color: #fff;
     background-color: #888;
   }
-
-/*.contacts{
-  font-size: 18px;
-}*/
 
 .navbar{
   margin-bottom: 0;
@@ -208,162 +201,6 @@ hr{
   font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.main-box{
-  margin: 0 auto;
-  text-align: center;
-  overflow: hidden;
-}
-
-.icon1:hover ~ .position-content-box .content-box .description-1,
-.icon2:hover ~ .position-content-box .content-box .description-2,
-.icon3:hover ~ .position-content-box .content-box .description-3,
-.icon4:hover ~ .position-content-box .content-box .description-4,
-.icon5:hover ~ .position-content-box .content-box .description-5,
-.icon6:hover ~ .position-content-box .content-box .description-6{
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-}
-
-.icon1:hover,
-.icon2:hover,
-.icon3:hover,
-.icon4:hover,
-.icon5:hover,
-.icon6:hover{
-  color: #395293;
-}
-
-
-.fa-5x{
-    padding: 0 3.9%;
-
-}
-
-.position-content-box{
-  padding: 100px 0 0 0;
-}
-
-.content-box{
-  width: 700px;
-  height: 250px;
-  padding: 15px;
-  box-sizing: border-box;
-  box-shadow: inset 1px 1px 5px #ccc;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  margin: 0 auto;
-}
-
-.description-1,
-.description-2,
-.description-3,
-.description-4,
-.description-5,
-.description-6{
-  opacity: 0;
-  width: 100%;
-  height: 0;
-}
-
-.description-1,
-.description-2,
-.description-3,
-.description-4,
-.description-5,
-.description-6{
-  font-size: 24px;
-  color: #395293;
-  font-weight: bold;
-  transition: 1.5s;
-}
-
-.description-1 p, .description-1 strong,
-.description-2 p, .description-2 strong,
-.description-3 p, .description-3 strong,
-.description-4 p, .description-4 strong,
-.description-5 p, .description-5 strong,
-.description-6 p, .description-6 strong{
-  color: #888;
-  font-size: 20px;
-}
-*/
-
-
-
-
-/*CENTER CIRCLE*/
-
-
-/*.partners:hover .fa-5x{
-  color: green;
-}
-.geography:hover .fa-5x{
-  color: lightgreen;
-}
-.capabilities:hover .fa-5x{
-  color: lightgreen;
-}
-.success:hover .fa-5x{
-  color: lightgreen;
-}
-.potential:hover .fa-5x{
-  color: lightgreen;
-}
-.team:hover .fa-5x{
-  color: lightgreen;
-}
-.history:hover .fa-5x{
-  color: lightgreen;
-}*/
-
-
-
-
-
-
-
-
-
-/*.fa-5x {
-    font-size: 8em;
-    padding: 30px 9px;
-}*/
-
 .description{
   margin: 30px 12px;
   font-size: 22px;
@@ -427,7 +264,6 @@ hr{
 }
 
 .center-circle{
-  /*background: url("http://egetrener.ru/files/B8/_138.jpg") no-repeat;*/
   background-position: left;
   width: 375px;
   height: 375px;
@@ -541,18 +377,12 @@ hr{
 }
 
 
-
-
-
-
-
-
 /*-------------- FOOTER--------------*/
 
 footer{
   background: #262626;
   color: #ffffff;
-  padding-top: 30px;
+  padding: 30px;
 }
 
 /*-------------- DESCRIBE CIRCLES--------------*/
