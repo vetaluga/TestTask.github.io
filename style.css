@@ -1,4 +1,4 @@
-/*-------------- HEADER--------------*/
+/*-------------- FOR ALL PAGE--------------*/
 
 body{
   color: #888;
@@ -17,6 +17,7 @@ body{
 
 h1{
   margin-bottom: 35px;
+  font-size: 60px;
 }
 
 hr{
@@ -33,20 +34,26 @@ hr{
   background: #f6f6f6;
 }
 
+.bg-lightgray{
+  background: #f6f6f6;
+  padding: 80px 15px 50px 15px;
+}
+
+.bg-white{
+  background: #fff;
+  padding: 80px 0 50px 0;
+}
+
+
+/*-------------- FOR ALL PAGE END--------------*/
+/*-------------- HEADER--------------*/
 .bg-img{
   width: 100%;
   max-height: 650px;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: repeat-x;
 }
 
 .carousel-caption{
   font-size: 30px;
-}
-
-.carousel-caption .title-top-bg{
-  font-size: 60px;
 }
 
 .navbar-header .navbar-brand{
@@ -75,10 +82,10 @@ hr{
     padding: 10px 10px;
   }
 
-  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
     background-color: #888;
-  }
+}
 
 .navbar{
   margin-bottom: 0;
@@ -89,20 +96,8 @@ hr{
   width: 100%;
   z-index: 1000;
 }
-
-/*Block Advantages*/
-
-.bg-lightgray{
-  background: #f6f6f6;
-  padding: 80px 15px 50px 15px;
-}
-
-.bg-white{
-  background: #fff;
-  padding: 80px 0 50px 0;
-}
-
-
+/*-------------- HEADER END--------------*/
+/*-------------- BLOCK ADVATAGES START|| FIRST SECTION--------------*/
 
 .main-box{
   margin: 0 auto;
@@ -110,12 +105,12 @@ hr{
   overflow: hidden;
 }
 
-#icon-description-1:checked ~ .position-content-box .content-box .description-1,
-#icon-description-2:checked ~ .position-content-box .content-box .description-2,
-#icon-description-3:checked ~ .position-content-box .content-box .description-3,
-#icon-description-4:checked ~ .position-content-box .content-box .description-4,
-#icon-description-5:checked ~ .position-content-box .content-box .description-5,
-#icon-description-6:checked ~ .position-content-box .content-box .description-6{
+#icon-description-1:checked ~ .content-box .description-1,
+#icon-description-2:checked ~ .content-box .description-2,
+#icon-description-3:checked ~ .content-box .description-3,
+#icon-description-4:checked ~ .content-box .description-4,
+#icon-description-5:checked ~ .content-box .description-5,
+#icon-description-6:checked ~ .content-box .description-6{
   opacity: 1;
   width: 100%;
   height: 100%;
@@ -139,7 +134,6 @@ hr{
   color: #395293;
 }
 
-
 .main-box label{
       padding: 0 2%;
 }
@@ -150,22 +144,19 @@ hr{
 
 .fa-5x{
   font-size: 8em;
-}
-
-.position-content-box{
-  padding: 100px 0 0 0;
+  cursor: pointer;
 }
 
 .content-box{
   width: 700px;
   height: 250px;
   background: #fff;
-  padding: 15px;
   box-sizing: border-box;
   box-shadow: inset 1px 1px 5px #ccc;
   border: 2px solid #ccc;
   border-radius: 4px;
-  margin: 0 auto;
+  margin: 50px auto;
+  overflow: hidden;
 }
 
 .description-1,
@@ -189,6 +180,7 @@ hr{
   color: #395293;
   font-weight: bold;
   transition: 1s;
+  line-height: 2;
 }
 
 .description-1 p, .description-1 strong,
@@ -196,7 +188,8 @@ hr{
 .description-3 p, .description-3 strong,
 .description-4 p, .description-4 strong,
 .description-5 p, .description-5 strong,
-.description-6 p, .description-6 strong{
+.description-6 p, .description-6 strong,
+.description p, .description strong{
   color: #888;
   font-size: 18px;
 }
@@ -208,26 +201,19 @@ hr{
   font-weight: bold;
 }
 
-.description p, .description strong{
-  color: #888;
-  font-size: 18px;
+/*-------------- BLOCK ADVATAGES END|| FIRST SECTION--------------*/
+/*-------------- BLOCK ADVATAGES START|| SECOND SECTION--------------*/
+
+.box{
+  padding: 100px;
 }
-
-/*-------------- DESCRIBE CIRCLES--------------*/
-/*-------------- DESCRIBE TEXT--------------*/
-
-
-/*-------------- DESCRIBE CIRCLES--------------*/
-/*-------------- DESCRIBE CIRCLES--------------*/
-/*-------------- DESCRIBE CIRCLES--------------*/
-
 
 .information-right{
   padding-left: 130px;
   min-width: 350px;
   max-width: 500px;
   opacity: 0;
-  font-size: 16px;
+  font-size: 18px;
   transition: 1s;
   visibility: hidden;
   margin-top: 40px;
@@ -238,7 +224,7 @@ hr{
   text-align: right;
   width: 310px;
   opacity: 0;
-  font-size: 16px;
+  font-size: 17px;
   transition: 1s;
   visibility: hidden;
   margin-top: 35px;
@@ -249,7 +235,7 @@ hr{
     margin-bottom: 4px;
 }
 
-.icon-home:hover .information-right,
+.icon-1:hover .information-right,
 .icon-2:hover .information-right,
 .icon-3:hover .information-right,
 .icon-4:hover .information-right,
@@ -269,13 +255,16 @@ hr{
   height: 375px;
   background: #ccc;
   border-radius: 50%;
-  margin: 100px auto;
+  margin: 0 auto;
   position: relative;
   top: 0;
   left: 0;
 }
 
-.icon-home{
+
+
+
+.icon-1{
   background: url("img/icons2/2-1.png") no-repeat;
   height: 115px;
   width: 115px;
@@ -285,6 +274,7 @@ hr{
   top: -60px;
   left: 195px;
 }
+
 .icon-2{
   background: url("img/icons2/2-2.png") no-repeat;
   height: 115px;
@@ -376,7 +366,35 @@ hr{
   left: 65px;
 }
 
-
+@media screen and (max-width: 991px){
+  .icon-1,
+  .icon-2,
+  .icon-3,
+  .icon-4,
+  .icon-5,
+  .icon-6,
+  .icon-7,
+  .icon-8,
+  .icon-9,
+  .icon-10{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .information-right{
+    padding-left: 0;
+    min-width: 100%;
+    height: 140px;
+    opacity: 1;
+    font-size: 21px;
+    visibility: visible;
+    margin-top: 15px;
+  }
+}
+/*-------------- BLOCK ADVATAGES END|| SECOND SECTION--------------*/
 /*-------------- FOOTER--------------*/
 
 footer{
