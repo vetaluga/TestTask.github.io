@@ -5,7 +5,7 @@ var timer;
 // auto();
 
 // function auto(){
-  setTimeout(nextRadio, 3000);
+  setTimeout(nextRadio, 5000);
 // }
 
 function nextRadio(){
@@ -16,7 +16,7 @@ function nextRadio(){
       i = 0;
     }
     radio[i].checked = 'checked';
-    timer = setTimeout(nextRadio, 3000);
+    timer = setTimeout(nextRadio, 4000);
 }
 
 function offSlider(){
