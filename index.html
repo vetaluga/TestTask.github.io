@@ -74,50 +74,107 @@
         </nav>
         <!--HEADER END-->
         <!-- FIRST SECTION -->
-        <section class="container-fluid bg-lightgray hidden-xs hidden-sm">
-            <h1 class="text-center">НАШI <br>ПЕРЕВАГИ <hr></h1>
-            <div class="main-box">
-                <input type="radio" id="icon-description-1" onclick="offSlider()" name="icon-desc" value="" checked>
-                <label for="icon-description-1"><i class="icon1 fa fa-area-chart fa-5x"><p>Географiя</p></i></label>
-                <input type="radio" id="icon-description-2" onclick="offSlider()" name="icon-desc" value="">
-                <label for="icon-description-2"><i class="icon2 fa fa-diamond fa-5x"><p>Можливостi</p></i></label>
-                <input type="radio" id="icon-description-3" onclick="offSlider()" name="icon-desc" value="">
-                <label for="icon-description-3"><i class="icon3 fa fa-trophy fa-5x"><p>Успiхи</p></i></label>
-                <input type="radio" id="icon-description-4" onclick="offSlider()" name="icon-desc" value="">
-                <label for="icon-description-4"><i class="icon4 fa fa-check fa-5x"><p>Потенцiал</p></i></label>
-                <input type="radio" id="icon-description-5" onclick="offSlider()" name="icon-desc" value="">
-                <label for="icon-description-5"><i class="icon5 fa fa-users  fa-5x"><p>Команда</p></i></label>
-                <input type="radio" id="icon-description-6" onclick="offSlider()" name="icon-desc" value="">
-                <label for="icon-description-6"><i class="icon6 fa fa-book fa-5x"><p>Iсторiя</p></i></label>
-                    <div class="content-box">
-                        <div class="description-1">
-                          <span class="">Партнери у кожнiй областi України<p>Бiльше <strong>5000</strong> активних партнерiв</p>
-                            Система ефективної логiстики<p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
-                          </span>
-                        </div>
-                        <div class="description-2">
-                          <span class="">Власний сертифiкований сервiсний центр<p>Оперативный запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м2<p>
-                            Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
-                          </span>
-                        </div>
-                        <div class="description-3">
-                            <span class="">Лiдер з продажу електроiнструменту в Українi<p>найкращий дистрибютор електроiнструмент<strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки<p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
-                            </span>
-                        </div>
-                        <div class="description-4">
-                            <span class="">Клiєнтоорiєнтованiсть<p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй<p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
-                            </span>
-                        </div>
-                        <div class="description-5">
-                            <span class="">Надiйна команда професiоналiв<p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток<p>Компанiя ма традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
-                            </span>
-                        </div>
-                        <div class="description-6">
-                            <span class="">Великий досвiд роботи<p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту<p>Iмпортуться продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
-                            </span>
-                        </div>
-                    </div>
+        <section class="container-fluid">
+          <h1 class="text-center">НАШI <br>ПЕРЕВАГИ <hr></h1>
+          <div class="wrapper-fs">
+            <div class="info-box" data-toggle="modal" data-target="#Modal1"><i class=" fa fa-area-chart fa-5x"><p>Географiя</p></i><br>Партнери у кожнiй областi України<p>Бiльше <strong>5000</strong> активних партнерiв</p>
+              Система ефективної логiстики<p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
+
             </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal2"><i class="fa fa-diamond fa-5x"><p>Можливостi</p></i><br>Власний сертифiкований сервiсний центр<p>Оперативный запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м2<p>
+              Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal3"><i class="fa fa-trophy fa-5x"><p>Успiхи</p></i><br>Лiдер з продажу електроiнструменту в Українi<p>найкращий дистрибютор електроiнструмент<strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки<p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal4"><i class="fa fa-check fa-5x"><p>Потенцiал</p></i><br>Клiєнтоорiєнтованiсть<p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй<p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal5"><i class="fa fa-users  fa-5x"><p>Команда</p></i><br>Надiйна команда професiоналiв<p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток<p>Компанiя ма традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal6"><i class="fa fa-book fa-5x"><p>Iсторiя</p></i><br>Великий досвiд роботи<p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту<p>Iмпортуться продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
+            </div>
+          </div>
+          <!-- MODAL WINDOWS -->
+          <div class="modal fade" id="Modal1" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">X</button>
+                  <h2 class="modal-title"><i class=" fa fa-area-chart fa-4x"></i><br>Географiя</h2>
+                </div>
+                <div class="modal-body">
+                    Партнери у кожнiй областi України<p>Бiльше <strong>5000</strong> активних партнерiв</p>
+                    Система ефективної логiстики<p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Modal2" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">Х</button>
+                  <h2 class="modal-title"><i class="fa fa-diamond fa-5x"></i><br>Можливостi</h2>
+                </div>
+                <div class="modal-body">Власний сертифiкований сервiсний центр<p>Оперативный запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м2<p>
+                  Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Modal3" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">Х</button>
+                  <h2 class="modal-title"><i class="fa fa-trophy fa-5x"></i><br>Успiхи</h2>
+                </div>
+                <div class="modal-body">Лiдер з продажу електроiнструменту в Українi<p>найкращий дистрибютор електроiнструмент <strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки<p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Modal4" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">Х</button>
+                  <h2 class="modal-title"><i class="fa fa-check fa-5x"></i><br>Потенцiал</h2>
+                </div>
+                <div class="modal-body">Клiєнтоорiєнтованiсть<p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй<p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Modal5" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">Х</button>
+                  <h2 class="modal-title"><i class="fa fa-users  fa-5x"></i><br>Команда</h2>
+                </div>
+                <div class="modal-body">Надiйна команда професiоналiв<p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток<p>Компанiя ма традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="Modal6" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">Х</button>
+                  <h2 class="modal-title"><i class="fa fa-book fa-5x"></i><br>Iсторiя</h2>
+                </div>
+                <div class="modal-body">Великий досвiд роботи<p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту<p>Iмпортуться продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- FOR SMALL DEVICES || FIRST SECTION-->
         <section class="container-fluid bg-lightgray visible-sm visible-xs">
@@ -229,7 +286,7 @@
                 <h4><strong>Систематичне навчання</strong><br><span style="font-style:normal;">Вiд найбiльших свiтових брендiв</span></h4>
               </div>
               <div class="item">
-                <h4><strong>Спеціальні сервіси для працівників</strong><br><span style="font-style:normal;">Що працюють понад (Що тут має бути за слово?)</span></h4>
+                <h4><strong>Спеціальні сервіси для працівників</strong><br><span style="font-style:normal;">Що працюють понад понаднормово</span></h4>
               </div>
               <div class="item">
                 <h4><strong>Офiцiйне працевлаштування + соцпакет</strong><br><span style="font-style:normal;">Гарантi надiйного майбутнього</span></h4>
@@ -238,13 +295,13 @@
                 <h4><strong>Спеццiни на продукцiю</strong><br><span style="font-style:normal;">Можливiсть купувати будь якi товари для власного використання за закупiвельними цiнами</span></h4>
               </div>
               <div class="item">
-                <h4><strong>Своєчасна та гiдна заробiтня плата</strong><br><span style="font-style:normal;">висока оплата за досягненнi в роботi</span></h4>
+                <h4><strong>Своєчасна та гiдна заробiтня плата</strong><br><span style="font-style:normal;">Висока оплата за досягненнi в роботi</span></h4>
               </div>
               <div class="item">
                 <h4><strong>Власний корпоративний портал</strong><br><span style="font-style:normal;">Для навчання та спiлкування спiвробiтникiв</span></h4>
               </div>
               <div class="item">
-                <h4><strong>Пiльговий тариф в спортзал</strong><br><span style="font-style:normal;">ми пiклуємось, щоб спiвробiтники завжди були у гарнiй формi</span></h4>
+                <h4><strong>Пiльговий тариф в спортзал</strong><br><span style="font-style:normal;">Ми пiклуємось, щоб спiвробiтники завжди були у гарнiй формi</span></h4>
               </div>
               <div class="item">
                 <h4><strong>Корпоративнi цiнностi та традицi</strong><br><span style="font-style:normal;">Командний дух та атмосфера пiдтримки</span></h4>
