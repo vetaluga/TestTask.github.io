@@ -16,7 +16,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
     <div class="wrapper">
@@ -292,7 +292,7 @@
                 <h4><strong>Офiцiйне працевлаштування + соцпакет</strong><br><span style="font-style:normal;">Гарантi надiйного майбутнього</span></h4>
               </div>
               <div class="item">
-                <h4><strong>Спеццiни на продукцiю</strong><br><span style="font-style:normal;">Можливiсть купувати будь якi товари для власного використання за закупiвельними цiнами</span></h4>
+                <h4><strong>Спеццiни на продукцiю</strong><br><span style="font-style:normal;">Можливiсть купувати будь-якi товари для власного використання за закупiвельними цiнами</span></h4>
               </div>
               <div class="item">
                 <h4><strong>Своєчасна та гiдна заробiтня плата</strong><br><span style="font-style:normal;">Висока оплата за досягненнi в роботi</span></h4>
@@ -400,17 +400,9 @@
         </section>
         <!-- VACANCIES END|| THIRD SECTION -->
         <!-- FOURTH SECTION -->
-        <section class="container-fluid bg-white ">
-            <div class="row ">
-                <div class="col-sm-12 text-center human">
-                    <h1>Анкета кандидата</h1>
-                    <button type="button" class="btn btn-danger btn-lg" data-target="#myModal" data-toggle="modal" name="button">Заповнити анкету</button>
-                </div>
-            </div>
-        </section>
-        <section class="container bg-lightgray ">
-            <div class="row call-back">
-                <div class="col-sm-6 col-sm-offset-3 text-center">
+        <section class="container-fluid bg-white">
+            <div class="row">
+                <div class="col-sm-6 text-center" id="feedback">
                     <h1>Зворотній зв'язок</h1>
                     <form class="form-horizontal">
                         <div class="form-group">
@@ -450,9 +442,17 @@
                             </div>
                         </div>
                         <div class="">
-                            <button type="button" class="btn btn-danger btn-block text-uppercase" name="button">Вiдправити</button>
+                            <button type="button" class="btn btn-danger btn-lg text-uppercase" name="button">Вiдправити</button>
                         </div>
                     </form>
+                </div>
+                <div class="col-sm-2">
+                  <div class="img-feedback-1"></div>
+                  <div class="img-feedback-2"></div>
+                </div>
+                <div class="col-sm-4 text-center" id="send-questionnaire">
+                  <h1>Анкета кандидата</h1>
+                  <button type="button" class="btn btn-danger btn-lg" data-target="#myModal" data-toggle="modal" name="button">Заповнити анкету</button>
                 </div>
             </div>
         </section>

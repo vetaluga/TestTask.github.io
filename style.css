@@ -5,19 +5,20 @@ body{
   font-family: 'Futura-Normal', Helvetica, sans-serif;
 }
 
-.human{
-  background: url("img/humans/icon-human.png") no-repeat bottom right;
-  height: 390px;
+.img-feedback-1{
+  background: url("img/humans/feedback-1.png") no-repeat bottom center;
+  display: none;
+  height: 450px;
 }
-
-.call-back{
-  background: url("img/humans/feedback.png") no-repeat bottom right;
-  background-size: 200px;
+.img-feedback-2{
+  background: url("img/humans/feedback-2.png") no-repeat bottom center;
+  height: 450px;
 }
 
 h1{
   margin-bottom: 35px;
   font-size: 60px;
+  cursor: default;
 }
 
 hr{
@@ -41,7 +42,7 @@ hr{
 
 .bg-white{
   background: #fff;
-  padding: 80px 0 50px 0;
+  padding: 80px 0 80px 0;
 }
 
 .affix + .container-fluid {

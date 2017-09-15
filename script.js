@@ -1,24 +1,10 @@
-var radio = document.getElementsByName('icon-desc');
-var i = 0;
-var timer;
-
-// auto();
-
-// function auto(){
-  setTimeout(nextRadio, 5000);
-// }
-
-function nextRadio(){
-    if( i < radio.length){
-      i++;
-    }
-    if( i == 6){
-      i = 0;
-    }
-    radio[i].checked = 'checked';
-    timer = setTimeout(nextRadio, 4000);
-}
-
-function offSlider(){
-    clearTimeout(timer);
-}
+$(document).ready(function(){
+    $('#send-questionnaire').mouseenter(function(){
+      $('.img-feedback-2').hide();
+      $('.img-feedback-1').show();
+    });
+    $('#feedback').mouseenter(function(){
+      $('.img-feedback-1').hide();
+      $('.img-feedback-2').show();
+    });
+});
