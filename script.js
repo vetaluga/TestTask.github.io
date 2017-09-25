@@ -10,7 +10,7 @@ $(document).ready(function(){
 });
 
 function myMap() {
-  var myCenter = new google.maps.LatLng(49.2674, 28.50149327);
+  var myCenter = new google.maps.LatLng(49.2662667, 28.501062);
   var mapCanvas = document.getElementById("map");
   var mapOptions = {center: myCenter, zoom: 15};
   var map = new google.maps.Map(mapCanvas, mapOptions);
