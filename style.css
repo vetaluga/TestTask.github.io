@@ -5,16 +5,6 @@ body{
   font-family: 'Futura-Normal', Helvetica, sans-serif;
 }
 
-.img-feedback-1{
-  background: url("img/humans/feedback-1.png") no-repeat bottom center;
-  display: none;
-  height: 450px;
-}
-.img-feedback-2{
-  background: url("img/humans/feedback-2.png") no-repeat bottom center;
-  height: 450px;
-}
-
 h1{
   margin-bottom: 35px;
   font-size: 60px;
@@ -119,11 +109,8 @@ hr{
 
 .info-box{
   padding: 10px 7px 0 7px;
-  width: 33%;
+  max-width: 413px;
   text-align: center;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
   font-size: 14px;
   color: #395293;
   font-weight: bold;
@@ -164,8 +151,6 @@ hr{
   color: #f6f6f6;
 }
 
-
-
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f6f6f6;
@@ -187,10 +172,6 @@ hr{
     margin: 50px 0 130px 0;
 }
 
-/*.item strong{
-  color: #395293;
-}*/
-
 .item span{
   color: #f6f6f6;
 }
@@ -210,11 +191,34 @@ hr{
   font-size: 18px;
 }
 
-/*-------------- BLOCK ADVATAGES END|| SECOND SECTION--------------*/
+/*-------------- BLOCK ADVATAGES END || SECOND SECTION--------------*/
+/*-------------- CANDIDATE SUMMARY || --------------*/
 
+.bg-white .row{
+  max-width: 1364px;
+}
 
+.col-sm-10 input[type=file]{
+  font-size: 20px;
+  padding: 8px 0;
+}
 
+.img-feedback-1{
+  background: url("img/humans/feedback-1.png") no-repeat bottom center;
+  background-size: contain;
+  display: none;
+  height: 450px;
+}
+.img-feedback-2{
+  background: url("img/humans/feedback-2.png") no-repeat bottom center;
+  background-size: contain;
+  height: 450px;
+}
 
+#send-questionnaire{
+  height: 480px;
+  padding-top: 100px;
+}
 
 /*-------------- FOOTER--------------*/
 
