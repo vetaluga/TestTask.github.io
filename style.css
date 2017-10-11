@@ -213,6 +213,7 @@ hr{
   background: url("img/humans/feedback-2.png") no-repeat bottom center;
   background-size: contain;
   height: 450px;
+  margin-left: -25px;
 }
 
 #send-questionnaire{
@@ -225,7 +226,7 @@ hr{
 footer{
   background: #262626;
   color: #ffffff;
-  padding: 30px;
+  padding: 30px 30px 15px 30px;
 }
 
 /*-------------- DESCRIBE CIRCLES--------------*/
