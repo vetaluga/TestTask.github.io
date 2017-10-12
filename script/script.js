@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  // FOR FEEDBACK SECTION
     $('#send-questionnaire').mouseenter(function(){
       $('.img-feedback-2').hide();
       $('.img-feedback-1').show();
@@ -23,3 +24,20 @@ function myMap() {
     map.setCenter(marker.getPosition());
   });
 }
+
+$(document).ready(function(){
+
+  // smooth scrolling to all links in navbar
+      $(".navbar a").on('click', function(event) {
+
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          window.location.hash = hash;
+          });
+        }
+      });
+  });

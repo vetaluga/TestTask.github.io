@@ -1,518 +1,543 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="ua">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Укрсервiс</title>
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style/main.css" text="text/css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/font.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
-    <div class="wrapper">
-      <!--HEADER START-->
-      <!-- BACKGROUND TOP SLIDER START -->
+    <!--HEADER START-->
+    <!-- BACKGROUND TOP SLIDER START -->
+    <div class="container-fluid">
+        <div class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-caption">
+                    <h1 class="title-carousel">Укрсервic</h1>
+                    <p>Оптимальні рішення для клієнтів та співробітників</p>
+                </div>
+                <div class="item active">
+                    <img src="img\top-bg_carousel\top-bg1.jpg" alt="" class="bg-img">
+                </div>
+
+                <div class="item">
+                    <img src="img\top-bg_carousel\top-bg2.jpg" alt="" class="bg-img">
+                </div>
+
+                <div class="item">
+                    <img src="img\top-bg_carousel\top-bg3.jpg" alt="" class="bg-img">
+                </div>
+
+                <div class="item">
+                    <img src="img\top-bg_carousel\top-bg4.jpg" alt="" class="bg-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BACKGROUND TOP SLIDER END -->
+    <!-- PRIMARY MENU -->
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="640">
         <div class="container-fluid">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="carousel-caption">
-                      <h1 class="">Укрсервic</h1>
-                      <p>ОПТИМАЛЬНІ РІШЕННЯ ДЛЯ КЛІЄНТІВ ТА СПІВРОБІТНИКІВ</p>
-                  </div>
-                    <div class="item active">
-                        <img src="img\top-bg.jpg" alt="Los Angeles" class="bg-img">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a href="#" class="navbar-brand"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#advantages">Про Нас</a></li>
+                    <li><a href="#vacancies">Вакансії</a></li>
+                    <li><a href="#">Відео</a></li>
+                    <li><a href="#feedback-section">Зворотній зв'язок</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--HEADER END-->
+    <!-- ADVATAGES || FIRST SECTION -->
+    <section class="container-fluid" id="advantages">
+        <h1 class="heading text-center">НАШI <br>ПЕРЕВАГИ <hr></h1>
+        <div class="container-advantages">
+            <div class="info-box" data-toggle="modal" data-target="#Modal1"><i class=" fa fa-area-chart fa-5x"><p>Географiя</p></i><br>Партнери у кожнiй областi України
+                <p>Бiльше <strong>5000</strong> активних партнерiв</p>
+                Система ефективної логiстики
+                <p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal2"><i class="fa fa-diamond fa-5x"><p>Можливостi</p></i><br>Власний сертифiкований сервiсний центр
+                <p>Оперативний запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м<sup>2</sup>
+                <p>
+                    Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal3"><i class="fa fa-trophy fa-5x"><p>Успiхи</p></i><br>Лiдер з продажу електроiнструменту в Українi
+                <p>Найкращий дистриб'ютор електроiнструменту <strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки
+                <p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal4"><i class="fa fa-check fa-5x"><p>Потенцiал</p></i><br>Клiєнтоорiєнтованiсть
+                <p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй
+                <p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal5"><i class="fa fa-users  fa-5x"><p>Команда</p></i><br>Надiйна команда професiоналiв
+                <p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток
+                <p>Компанiя має традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
+            </div>
+            <div class="info-box" data-toggle="modal" data-target="#Modal6"><i class="fa fa-book fa-5x"><p>Iсторiя</p></i><br>Великий досвiд роботи
+                <p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту
+                <p>Iмпортується продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
+            </div>
+        </div>
+        <!-- MODAL WINDOWS -->
+        <div class="modal fade" id="Modal1" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">X</button>
+                        <h2 class="modal-title"><i class=" fa fa-area-chart fa-4x"></i><br>Географiя</h2>
                     </div>
-
-                    <div class="item">
-                        <img src="img\top-bg2.jpg" alt="Chicago" class="bg-img">
-                    </div>
-
-                    <div class="item">
-                        <img src="img\top-bg3.jpg" alt="New york" class="bg-img">
-                    </div>
-
-                    <div class="item">
-                        <img src="img\top-bg4.jpg" alt="New york" class="bg-img">
+                    <div class="modal-body">
+                        Партнери у кожнiй областi України
+                        <p>Бiльше <strong>5000</strong> активних партнерiв</p>
+                        Система ефективної логiстики
+                        <p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- BACKGROUND TOP SLIDER END -->
-        <!-- PRIMARY MENU -->
-        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="640">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  <a href="#" class="navbar-brand"></a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#advantages">Про Нас</a></li>
-                        <li><a href="#vacancies">Вакансії</a></li>
-                        <li><a href="#">Відео</a></li>
-                        <li><a href="#feedback-section">Зворотній зв'язок</a></li>
-                        <li><a href="#contacts">Контакти</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!--HEADER END-->
-        <!-- FIRST SECTION -->
-        <section class="container-fluid" id="advantages">
-          <h1 class="text-center">НАШI <br>ПЕРЕВАГИ <hr></h1>
-          <div class="wrapper-fs">
-            <div class="info-box" data-toggle="modal" data-target="#Modal1"><i class=" fa fa-area-chart fa-5x"><p>Географiя</p></i><br>Партнери у кожнiй областi України<p>Бiльше <strong>5000</strong> активних партнерiв</p>
-              Система ефективної логiстики<p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
-
-            </div>
-            <div class="info-box" data-toggle="modal" data-target="#Modal2"><i class="fa fa-diamond fa-5x"><p>Можливостi</p></i><br>Власний сертифiкований сервiсний центр<p>Оперативный запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м<sup>2</sup> <p>
-              Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
-            </div>
-            <div class="info-box" data-toggle="modal" data-target="#Modal3"><i class="fa fa-trophy fa-5x"><p>Успiхи</p></i><br>Лiдер з продажу електроiнструменту в Українi<p>Найкращий дистрибютор електроiнструменту <strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки<p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
-            </div>
-            <div class="info-box" data-toggle="modal" data-target="#Modal4"><i class="fa fa-check fa-5x"><p>Потенцiал</p></i><br>Клiєнтоорiєнтованiсть<p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй<p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
-            </div>
-            <div class="info-box" data-toggle="modal" data-target="#Modal5"><i class="fa fa-users  fa-5x"><p>Команда</p></i><br>Надiйна команда професiоналiв<p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток<p>Компанiя ма традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
-            </div>
-            <div class="info-box" data-toggle="modal" data-target="#Modal6"><i class="fa fa-book fa-5x"><p>Iсторiя</p></i><br>Великий досвiд роботи<p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту<p>Iмпортуться продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
-            </div>
-          </div>
-          <!-- MODAL WINDOWS -->
-          <div class="modal fade" id="Modal1" role="dialog">
+        <div class="modal fade" id="Modal2" role="dialog">
             <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">X</button>
-                  <h2 class="modal-title"><i class=" fa fa-area-chart fa-4x"></i><br>Географiя</h2>
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">Х</button>
+                        <h2 class="modal-title"><i class="fa fa-diamond fa-5x"></i><br>Можливостi</h2>
+                    </div>
+                    <div class="modal-body">Власний сертифiкований сервiсний центр
+                        <p>Оперативний запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м<sup>2</sup>
+                        <p>Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    Партнери у кожнiй областi України<p>Бiльше <strong>5000</strong> активних партнерiв</p>
-                    Система ефективної логiстики<p>Власний транспортний парк та тiсна спiвпраця з усiма транспортними компанiями</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="modal fade" id="Modal2" role="dialog">
+        </div>
+        <div class="modal fade" id="Modal3" role="dialog">
             <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">Х</button>
-                  <h2 class="modal-title"><i class="fa fa-diamond fa-5x"></i><br>Можливостi</h2>
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">Х</button>
+                        <h2 class="modal-title"><i class="fa fa-trophy fa-5x"></i><br>Успiхи</h2>
+                    </div>
+                    <div class="modal-body">Лiдер з продажу електроiнструменту в Українi
+                        <p><strong>найкращий</strong> дистриб'ютор електроiнструменту <strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки
+                        <p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
+                    </div>
                 </div>
-                <div class="modal-body">Власний сертифiкований сервiсний центр<p>Оперативний запуск, налаштування та ремонт обладнання будь-якої складностi</p>Складськi площi понад 4500м<sup>2</sup> <p>
-                  Постiйна наявнiсть необхiдних товарiв на власних складах у м.Вiнниця та iнших областях</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="modal fade" id="Modal3" role="dialog">
+        </div>
+        <div class="modal fade" id="Modal4" role="dialog">
             <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">Х</button>
-                  <h2 class="modal-title"><i class="fa fa-trophy fa-5x"></i><br>Успiхи</h2>
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">Х</button>
+                        <h2 class="modal-title"><i class="fa fa-check fa-5x"></i><br>Потенцiал</h2>
+                    </div>
+                    <div class="modal-body">Клiєнтоорiєнтованiсть
+                        <p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй
+                        <p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
+                    </div>
                 </div>
-                <div class="modal-body">Лiдер з продажу електроiнструменту в Українi<p><strong>найкращий</strong> дистрибютор електроiнструменту <strong>BOSCH</strong> в 2010, 2011 i 2013 роцi</p>Власнi торговi марки<p>Iнструмент та обладнання пiд власними торговими марками випускаються на кращих заводах Азiї та Європи</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="modal fade" id="Modal4" role="dialog">
+        </div>
+        <div class="modal fade" id="Modal5" role="dialog">
             <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">Х</button>
-                  <h2 class="modal-title"><i class="fa fa-check fa-5x"></i><br>Потенцiал</h2>
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">Х</button>
+                        <h2 class="modal-title"><i class="fa fa-users  fa-5x"></i><br>Команда</h2>
+                    </div>
+                    <div class="modal-body">Надiйна команда професiоналiв
+                        <p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток
+                        <p>Компанiя має традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
+                    </div>
                 </div>
-                <div class="modal-body">Клiєнтоорiєнтованiсть<p>Можливiсть замовлення рiдкiсного ексклюзивного обладнання, технiки та iнструменту пiд потреби клiєнтiв</p>Власна мережа магазинiв та фiлiй<p>Нашi магазини та представництва знаходяться в м.Вiнниця, м.Київ, м.Хмельницький, а також регiональних центрах м.Гайсин, м.Iллiнцi, м.Хмiльник</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="modal fade" id="Modal5" role="dialog">
+        </div>
+        <div class="modal fade" id="Modal6" role="dialog">
             <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">Х</button>
-                  <h2 class="modal-title"><i class="fa fa-users  fa-5x"></i><br>Команда</h2>
+                <!-- Modal content-->
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">Х</button>
+                        <h2 class="modal-title"><i class="fa fa-book fa-5x"></i><br>Iсторiя</h2>
+                    </div>
+                    <div class="modal-body">Великий досвiд роботи
+                        <p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту
+                        <p>імпортується продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
+                    </div>
                 </div>
-                <div class="modal-body">Надiйна команда професiоналiв<p>На сьогоднiшнiй день <strong>200</strong> працiвникiв уже стали частиною сiм'ї Укрсервiс</p>Традицiї та стрiмкий розвиток<p>Компанiя має традицiї i при цьому постiйно iнвестує в розвиток персоналу. За останнi роки було проведено <strong>125</strong> семiнарiв, <strong>41</strong> практикум, тощо</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="modal fade" id="Modal6" role="dialog">
-            <div class="modal-dialog modal-lg">
-              <!-- Modal content-->
-              <div class="modal-content text-center">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">Х</button>
-                  <h2 class="modal-title"><i class="fa fa-book fa-5x"></i><br>Iсторiя</h2>
-                </div>
-                <div class="modal-body">Великий досвiд роботи<p>Бiльше <strong>20</strong> рокiв на ринку України</p>Динамiчне збiльшення асортименту власного iмпорту<p>імпортуться продукцiя <strong>87</strong> торгових марок з <strong>37</strong> країн свiту</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- FIRST SECTION END -->
-        <!-- SECOND SECTION START -->
-        <section class="container-fluid bg-blue text-center">
-          <h1>ЧОМУ САМЕ МИ?</h1>
-          <div id="Carousel" class="carousel slide text-center" data-ride="carousel">
+        </div>
+    </section>
+    <!-- SECOND SECTION -->
+    <section class="container-fluid carousel-advantages text-center">
+        <h1 class="heading">ЧОМУ САМЕ МИ?</h1>
+        <div id="Carousel" class="carousel slide text-center" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#Carousel" data-slide-to="1"></li>
-              <li data-target="#Carousel" data-slide-to="2"></li>
-              <li data-target="#Carousel" data-slide-to="3"></li>
-              <li data-target="#Carousel" data-slide-to="4"></li>
-              <li data-target="#Carousel" data-slide-to="5"></li>
-              <li data-target="#Carousel" data-slide-to="6"></li>
-              <li data-target="#Carousel" data-slide-to="7"></li>
-              <li data-target="#Carousel" data-slide-to="8"></li>
-              <li data-target="#Carousel" data-slide-to="9"></li>
+                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#Carousel" data-slide-to="1"></li>
+                <li data-target="#Carousel" data-slide-to="2"></li>
+                <li data-target="#Carousel" data-slide-to="3"></li>
+                <li data-target="#Carousel" data-slide-to="4"></li>
+                <li data-target="#Carousel" data-slide-to="5"></li>
+                <li data-target="#Carousel" data-slide-to="6"></li>
+                <li data-target="#Carousel" data-slide-to="7"></li>
+                <li data-target="#Carousel" data-slide-to="8"></li>
+                <li data-target="#Carousel" data-slide-to="9"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-              <div class="item active">
-              <h4><strong>Комфортний сучасний офic</strong><br><span style="font-style:normal;">Оснащений всiм необхiдним</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Систематичне навчання</strong><br><span style="font-style:normal;">Вiд найбiльших свiтових брендiв</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Спеціальні сервіси для працівників</strong><br><span style="font-style:normal;">Що працюють понаднормово</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Офiцiйне працевлаштування + соцпакет</strong><br><span style="font-style:normal;">Гарантiї надiйного майбутнього</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Спеццiни на продукцiю</strong><br><span style="font-style:normal;">Можливiсть купувати будь-якi товари <br> для власного використання по закупiвельним цiнам</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Своєчасна та гiдна заробiтня плата</strong><br><span style="font-style:normal;">Висока оплата за досягнення в роботi</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Власний корпоративний портал</strong><br><span style="font-style:normal;">Для навчання та спiлкування спiвробiтникiв</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Пiльговий тариф в спортзал</strong><br><span style="font-style:normal;">Ми пiклуємось, щоб спiвробiтники завжди були у гарнiй формi</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Корпоративнi цiнностi та традицi</strong><br><span style="font-style:normal;">Командний дух та атмосфера пiдтримки</span></h4>
-              </div>
-              <div class="item">
-                <h4><strong>Система нематерiальної мотивацiї</strong><br><span style="font-style:normal;">Ви отримуєте не просто роботу, а стиль життя</span></h4>
-              </div>
+                <div class="item active">
+                    <h4><strong>Комфортний сучасний офic</strong><br><span style="font-style:normal;">Оснащений всiм необхiдним</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Систематичне навчання</strong><br><span style="font-style:normal;">Вiд найвідоміших свiтових брендiв</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Спеціальні сервіси для працівників</strong><br><span style="font-style:normal;">Що працюють понаднормово</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Офiцiйне працевлаштування + соцпакет</strong><br><span style="font-style:normal;">Гарантiї надiйного майбутнього</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Спеццiни на продукцiю</strong><br><span style="font-style:normal;">Можливiсть купувати будь-якi товари <br> для власного використання по закупiвельним цiнам</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Своєчасна та гiдна заробiтня плата</strong><br><span style="font-style:normal;">Висока оплата за досягнення в роботi</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Власний корпоративний портал</strong><br><span style="font-style:normal;">Для навчання та спiлкування спiвробiтникiв</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Пiльговий тариф в спортзал</strong><br><span style="font-style:normal;">Ми пiклуємось, щоб спiвробiтники завжди були у гарнiй формi</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Корпоративнi цiнностi та традицiї</strong><br><span style="font-style:normal;">Командний дух та атмосфера пiдтримки</span></h4>
+                </div>
+                <div class="item">
+                    <h4><strong>Система нематерiальної мотивацiї</strong><br><span style="font-style:normal;">Ви отримуєте не просто роботу, а стиль життя</span></h4>
+                </div>
             </div>
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </div>
-        </section>
-        <!-- SECOND SECTION END -->
-        <!-- VACANCIES START|| THIRD SECTION -->
-        <section class="container bg-lightgray text-center" id="vacancies">
-            <ul class="nav nav-tabs">
-                <h1 class="text-uppercase ">Відкриті вакансії</h1>
-                <li class="active"><a data-toggle="tab" href="#home">HOME</a></li>
-                <li><a data-toggle="tab" href="#menu1">Вакансія 1</a></li>
-                <li><a data-toggle="tab" href="#menu2">Вакансія 2</a></li>
-                <li><a data-toggle="tab" href="#menu3">Вакансія 3</a></li>
-                <li><a data-toggle="tab" href="#menu4">Вакансія 4</a></li>
-                <li><a data-toggle="tab" href="#menu5">Вакансія 5</a></li>
-                <!-- <li><a data-toggle="tab" href="#menu6">Вакансія 6</a></li>
-                <li><a data-toggle="tab" href="#menu7">Вакансія 7</a></li>
-                <li><a data-toggle="tab" href="#menu8">Вакансія 8</a></li>
-                <li><a data-toggle="tab" href="#menu9">Вакансія 9</a></li>
-                <li><a data-toggle="tab" href="#menu10">Вакансія 10</a></li> -->
-            </ul>
+        </div>
+    </section>
+    <!-- ADVATAGES END || SECOND SECTION END -->
+    <!-- VACANCIES START -->
+    <section class="container text-center" id="vacancies">
+        <ul class="nav nav-tabs">
+            <h1 class="heading text-uppercase ">Відкриті вакансії</h1>
+            <li class="active"><a data-toggle="tab" href="#home">HOME</a></li>
+            <li><a data-toggle="tab" href="#menu1">Вакансія 1</a></li>
+            <li><a data-toggle="tab" href="#menu2">Вакансія 2</a></li>
+            <li><a data-toggle="tab" href="#menu3">Вакансія 3</a></li>
+            <li><a data-toggle="tab" href="#menu4">Вакансія 4</a></li>
+            <li><a data-toggle="tab" href="#menu5">Вакансія 5</a></li>
+            <!-- <li><a data-toggle="tab" href="#menu6">Вакансія 6</a></li>
+            <li><a data-toggle="tab" href="#menu7">Вакансія 7</a></li>
+            <li><a data-toggle="tab" href="#menu8">Вакансія 8</a></li>
+            <li><a data-toggle="tab" href="#menu9">Вакансія 9</a></li>
+            <li><a data-toggle="tab" href="#menu10">Вакансія 10</a></li> -->
+        </ul>
 
-            <div class="tab-content ">
-                <div id="home" class="tab-pane fade in active">
-                    <h3>INFO TEXT</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu1" class="tab-pane fade">
-                    <h3>Vacancy 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu2" class="tab-pane fade">
-                    <h3>Vacancy 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu3" class="tab-pane fade">
-                    <h3>Vacancy 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu4" class="tab-pane fade">
-                    <h3>Vacancy 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu5" class="tab-pane fade">
-                    <h3>Vacancy 5</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <!-- <div id="menu6" class="tab-pane fade">
-                    <h3>Vacancy 6</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu7" class="tab-pane fade">
-                    <h3>Vacancy 7</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu8" class="tab-pane fade">
-                    <h3>Vacancy 8</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu9" class="tab-pane fade">
-                    <h3>Vacancy 9</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div>
-                <div id="menu10" class="tab-pane fade">
-                    <h3>Vacancy 10</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <img src="img\image.png" style="width: 50%" alt="Image">
-                </div> -->
+        <div class="tab-content ">
+            <div id="home" class="tab-pane fade in active">
+                <h3>INFO TEXT</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
             </div>
-        </section>
-        <!-- VACANCIES END|| THIRD SECTION -->
-        <!-- FOURTH SECTION -->
-        <section class="container-fluid bg-white" id="feedback-section" >
-            <div class="row">
-                <div class="col-sm-6 text-center" id="feedback">
-                    <h1>Резюме кандидата</h1>
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">ПIП</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" id="" type="text" placeholder="Click to focus...">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Кон.тел</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" id="" type="text" placeholder="Click to focus...">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">E-mail</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" id="" type="text" placeholder="Click to focus...">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Вакансiя</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" id="" type="text" placeholder="Click to focus...">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Примiтки</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" id="" type="text" placeholder="Click to focus...">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Прикрiпити резюме</label>
-                            <div class="col-sm-10">
-                                <input class="" id="" type="file">
-                            </div>
-                        </div>
-                        <div class="">
-                            <button type="button" class="btn btn-danger btn-lg text-uppercase" name="button">Вiдправити</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-sm-2">
-                  <div class="img-feedback-1"></div>
-                  <div class="img-feedback-2"></div>
-                </div>
-                <div class="col-sm-4 text-center" id="send-questionnaire">
-                  <h1>Анкета кандидата</h1>
-                  <button type="button" class="btn btn-danger btn-lg" data-target="#myModal" data-toggle="modal" name="button">Заповнити анкету</button>
-                </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Vacancy 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
             </div>
-        </section>
-        <div id="map" style="width:100%;height:500px;"></div>
-        <footer class="text-right" id="contacts">
-          <div class="row">
+            <div id="menu2" class="tab-pane fade">
+                <h3>Vacancy 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h3>Vacancy 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu4" class="tab-pane fade">
+                <h3>Vacancy 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu5" class="tab-pane fade">
+                <h3>Vacancy 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <!-- <div id="menu6" class="tab-pane fade">
+                <h3>Vacancy 6</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu7" class="tab-pane fade">
+                <h3>Vacancy 7</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu8" class="tab-pane fade">
+                <h3>Vacancy 8</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu9" class="tab-pane fade">
+                <h3>Vacancy 9</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div>
+            <div id="menu10" class="tab-pane fade">
+                <h3>Vacancy 10</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img\image.png" style="width: 50%" alt="Image">
+            </div> -->
+        </div>
+    </section>
+    <!-- VACANCIES END -->
+    <!-- FEEDBACK -->
+    <section class="container-fluid" id="feedback-section">
+        <div class="row">
+            <div class="col-sm-6 text-center" id="feedback">
+                <h1>Резюме кандидата</h1>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">ПIП</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Кон.тел</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">E-mail</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Вакансiя</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Примiтки</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Прикрiпити резюме</label>
+                        <div class="col-sm-10">
+                            <input class="" id="" type="file">
+                        </div>
+                    </div>
+                    <div class="">
+                        <button type="button" class="btn btn-danger btn-lg text-uppercase" name="button">Вiдправити</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-2 hidden-xs">
+                <div class="img-feedback-1"></div>
+                <div class="img-feedback-2"></div>
+            </div>
+            <div class="col-sm-4 text-center" id="send-questionnaire">
+                <h1>Анкета кандидата</h1>
+                <button type="button" class="btn btn-danger btn-lg text-uppercase" data-target="#myModal" data-toggle="modal" name="button">Заповнити анкету</button>
+            </div>
+        </div>
+    </section>
+    <div id="map" style="width:100%;height:500px;"></div>
+    <footer class="text-right" id="contacts">
+        <div class="row">
             <div class="col-sm-2 col-sm-offset-6">
-              <p>E-mail: hrm@ukrservice.biz, hrm2@ukrservice.biz</p>
+                <p>E-mail: <span class="e-mail">hrm@ukrservice.biz hrm2@ukrservice.biz</span></p>
             </div>
             <div class="col-sm-2">
                 <p class="contacts"><strong>+380(067) 431-53-56</strong></p>
                 <p class="contacts"><strong>+380(067) 432-08-61</strong></p>
+                <p class="contacts">Тел.+380 (432) 555-345</p>
             </div>
             <div class="col-sm-2">
-                  <p>Україна, 21022, м.Вінниця,</p>
-                  <p>вул.С.Зулінського, 44в</p>
-                  <p>Тел.+380 (432) 555-345</p>
+                <p>Україна, 21022, м.Вінниця,</p>
+                <p>вул.С.Зулінського, 44в</p>
             </div>
-          </div>
-        </footer>
-        <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header text-center">
-                        <button type="button" class="close" data-dismiss="modal">Х</button>
-                        <h2 class="modal-title">Анкета кандидата</h2>
-                    </div>
-                    <div class="modal-body">
-                        <form class="" action="index.html" method="post">
-                            <div class="form-group">
-                                <label for="">вакансiя</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal">Х</button>
+                    <h2 class="modal-title">Анкета кандидата</h2>
+                </div>
+                <div class="modal-body">
+                    <form class="" action="index.html" method="post">
+                        <div class="form-group">
+                            <label for="">вакансiя</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">прiзвище ім'я по-батьковi</label>
-                                <input type="text" class="form-control" id="" name="name" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">прiзвище ім'я по-батьковi</label>
+                            <input type="text" class="form-control" id="" name="name" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">дата Народження</label>
-                                <input type="text" class="form-control" id="" name="born" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">дата Народження</label>
+                            <input type="text" class="form-control" id="" name="born" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">адреса проживання</label>
-                                <input type="text" class="form-control" id="" name="adress" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">адреса проживання</label>
+                            <input type="text" class="form-control" id="" name="adress" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">контактний номер телефону</label>
-                                <input type="text" class="form-control" id="" name="numbphone" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">контактний номер телефону</label>
+                            <input type="text" class="form-control" id="" name="numbphone" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">e-mail</label>
-                                <input type="text" class="form-control" id="" name="mail" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">e-mail</label>
+                            <input type="text" class="form-control" id="" name="mail" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">посилання на сторiнку соц.мережi</label>
-                                <input type="text" class="form-control" id="" name="socialpage" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">посилання на сторiнку соц.мережi</label>
+                            <input type="text" class="form-control" id="" name="socialpage" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">освiта</label>
-                                <input type="text" class="form-control" id="" name="education" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">освiта</label>
+                            <input type="text" class="form-control" id="" name="education" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">наявнiсть спец. Категорiй, розрядiв, допускiв</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">наявнiсть спец. Категорiй, розрядiв, допускiв</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">додатковi навики</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">додатковi навики</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">наявнiсть водiйських прав</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">наявнiсть водiйських прав</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">наявнiсть автомобiля</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">наявнiсть автомобiля</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">наявнiсть iнвалiдностi</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">наявнiсть iнвалiдностi</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">судимiсть(ви, вашi рiднi)</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">судимiсть(ви, вашi рiднi)</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">досвiд роботи 1 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)
-                  </label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">досвiд роботи 1 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)
+              </label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">досвiд роботи 2 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">досвiд роботи 2 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">досвiд роботи 3 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">досвiд роботи 3 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">побажання по заробiтнiй платi на випробувальний термiн</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">побажання по заробiтнiй платi на випробувальний термiн</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">побажання по заробiтнiй платi пiсля випробувального термiну.</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">побажання по заробiтнiй платi пiсля випробувального термiну.</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                            <div class="form-group">
-                                <label for="">чому саме ви?</label>
-                                <input type="text" class="form-control" id="" name="" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">чому саме ви?</label>
+                            <input type="text" class="form-control" id="" name="" value="">
 
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Вiдправити</button>
-                    </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Вiдправити</button>
                 </div>
             </div>
         </div>
-
     </div>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeF6D9JIKOLW2tExnxlVv7qzKlcqPIIRU&callback=myMap"></script>
 </body>
 
