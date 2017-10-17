@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                <a href="#" class="navbar-brand"></a>
+                <a href="https://e-ukrservice.com/" class="navbar-brand"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -351,25 +351,25 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">ПIП</label>
                         <div class="col-sm-10">
-                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                            <input class="form-control" id="" type="text" name="name" pattern="\D+" required placeholder="Click to focus...">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Кон.тел</label>
                         <div class="col-sm-10">
-                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                            <input class="form-control" id="" type="text" name="phone" pattern="\+?3?8?\s?[\(]{0,1}0[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\s?\d{2}[-]{0,1}\s?\d{2}" title="Вкажіть мобільний телефон або з кодом міста" required placeholder="Click to focus...">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">E-mail</label>
                         <div class="col-sm-10">
-                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                            <input class="form-control" id="" name="email" type="email" required placeholder="Click to focus...">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Вакансiя</label>
                         <div class="col-sm-10">
-                            <input class="form-control" id="" type="text" placeholder="Click to focus...">
+                            <input class="form-control" id="" name="vacancy" pattern="\D+" type="text" required placeholder="Click to focus...">
                         </div>
                     </div>
                     <div class="form-group">
@@ -381,11 +381,11 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Прикрiпити резюме</label>
                         <div class="col-sm-10">
-                            <input class="" id="" type="file">
+                            <input class="" id="" name="cv-resume" type="file" required>
                         </div>
                     </div>
                     <div class="">
-                        <button type="button" class="btn btn-danger btn-lg text-uppercase" name="button">Вiдправити</button>
+                        <input type="submit" class="btn btn-danger btn-lg text-uppercase" value="Вiдправити" name="button">
                     </div>
                 </form>
             </div>
@@ -430,37 +430,37 @@
                     <form class="" action="index.html" method="post">
                         <div class="form-group">
                             <label for="">вакансiя</label>
-                            <input type="text" class="form-control" id="" name="" value="">
+                            <input type="text" class="form-control" id="" name="vacancy" value="" required>
 
                         </div>
                         <div class="form-group">
                             <label for="">прiзвище ім'я по-батьковi</label>
-                            <input type="text" class="form-control" id="" name="name" value="">
+                            <input type="text" class="form-control" id="" name="name" value="" required>
 
                         </div>
                         <div class="form-group">
-                            <label for="">дата Народження</label>
-                            <input type="text" class="form-control" id="" name="born" value="">
+                            <label for="">дата народження</label>
+                            <input type="text" class="form-control" id="" name="born" value="" required>
 
                         </div>
                         <div class="form-group">
                             <label for="">адреса проживання</label>
-                            <input type="text" class="form-control" id="" name="adress" value="">
+                            <input type="text" class="form-control" id="" name="adress" value="" required>
 
                         </div>
                         <div class="form-group">
                             <label for="">контактний номер телефону</label>
-                            <input type="text" class="form-control" id="" name="numbphone" value="">
+                            <input type="text" class="form-control" id="" name="numbphone" pattern="\+?3?8?\s?[\(]{0,1}0[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\s?\d{2}[-]{0,1}\s?\d{2}" value="" required>
 
                         </div>
                         <div class="form-group">
                             <label for="">e-mail</label>
-                            <input type="text" class="form-control" id="" name="mail" value="">
+                            <input type="email" class="form-control" id="" name="mail" value="" required>
 
                         </div>
                         <div class="form-group">
                             <label for="">посилання на сторiнку соц.мережi</label>
-                            <input type="text" class="form-control" id="" name="socialpage" value="">
+                            <input type="url" class="form-control" id="" name="socialpage" value="">
 
                         </div>
                         <div class="form-group">
@@ -499,8 +499,7 @@
 
                         </div>
                         <div class="form-group">
-                            <label for="">досвiд роботи 1 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)
-              </label>
+                            <label for="">досвiд роботи 1 (вкажiть компанiю, перiод роботи, посаду, основнi обов'язки, причину звiльнення)</label>
                             <input type="text" class="form-control" id="" name="" value="">
 
                         </div>
@@ -532,7 +531,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Вiдправити</button>
+                    <input type="button" class="btn btn-danger btn-lg" data-dismiss="modal" value="Вiдправити">
                 </div>
             </div>
         </div>

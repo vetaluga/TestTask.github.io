@@ -32,10 +32,11 @@ html, body{
 }
 
 .navbar>.container-fluid .navbar-brand{
-  background: url("../img/logo/logo-1.png") no-repeat;
+  background: url("../img/logo/logo.png") no-repeat;
+  background-size: 100%;
   width: 135px;
-  height: 65px;
-  margin-left: 10px;
+  height: 56px;
+  margin-left: 13px;
   padding: 0;
 }
 
