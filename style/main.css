@@ -111,7 +111,9 @@ html, body{
   background: #ddd;
 }
 
+.info-box span,
 .info-box p{
+  display: block;
   color: #888;
   font-size: 0.95rem;
 }
@@ -184,6 +186,10 @@ html, body{
 
 .row{
   margin: 0;
+}
+
+h3{
+  font-size: 3rem;
 }
 
 .img-feedback-1{
