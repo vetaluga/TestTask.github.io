@@ -170,12 +170,19 @@ html, body{
     float: none;
 }
 
+button.action-link{
+    padding: 18px 33px;
+}
+
 .nav>li {
     display: inline-block;
 }
 
 .nav-tabs>li>a{
   font-size: 1.125rem;
+}
+.tab-content>.active {
+    margin-bottom: 40px;
 }
 
 /* VACANCIES END */
