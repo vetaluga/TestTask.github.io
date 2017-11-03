@@ -1,3 +1,14 @@
+$(document).ready(function(){
+  // FOR FEEDBACK SECTION
+    $('#send-questionnaire').mouseenter(function(){
+      $('.img-feedback-2').hide();
+      $('.img-feedback-1').show();
+    });
+    $('#feedback').mouseenter(function(){
+      $('.img-feedback-1').hide();
+      $('.img-feedback-2').show();
+    });
+});
 
 function myMap() {
   var myCenter = new google.maps.LatLng(49.2662667, 28.501062);

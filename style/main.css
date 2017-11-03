@@ -11,13 +11,23 @@ html, body{
 
 /*-------------- HEADER--------------*/
 
-.carousel-caption{
+header{
+  position: relative;
+}
+
+.caption{
   font-size: 2.5vw;
   cursor: default;
   text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
 
-.carousel-caption .title-carousel{
+.caption .title{
   font-size: 5vw;
 }
 
@@ -167,11 +177,15 @@ html, body{
 /* BLOCK ADVATAGES END|| SECOND SECTION END*/
 /* VACANCIES */
 .nav-tabs>li {
-    float: none;
+  float: none;
+}
+
+.tab-content>.active {
+  margin-bottom: 40px;
 }
 
 button.action-link{
-    padding: 18px 33px;
+  padding: 18px 33px;
 }
 
 .nav>li {
@@ -180,9 +194,6 @@ button.action-link{
 
 .nav-tabs>li>a{
   font-size: 1.125rem;
-}
-.tab-content>.active {
-    margin-bottom: 40px;
 }
 
 /* VACANCIES END */
@@ -318,10 +329,6 @@ a, a:hover, a:active{
   background: #fff;
 }
 
-#send-questionnaire{
-  padding: 40px 0;
-}
-
 /*FOOTER*/
 #map{
   width:100%;
@@ -331,13 +338,25 @@ a, a:hover, a:active{
 footer{
   background: #262626;
   color: #ffffff;
-  padding: 30px 30px 15px 30px;
+}
+
+footer .col-sm-8{
+  padding: 0;
+}
+
+.contact-info{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
 }
 
 .e-mail{
   color: #395293;
 }
 
-.contacts{
+.contacts strong{
   text-decoration: none;
 }
