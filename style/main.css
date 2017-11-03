@@ -184,7 +184,7 @@ header{
   margin-bottom: 40px;
 }
 
-button.action-link{
+.col-sm-3 .action-link{
   padding: 18px 33px;
 }
 
